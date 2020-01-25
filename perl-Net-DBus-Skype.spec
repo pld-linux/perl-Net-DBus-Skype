@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	DBus-Skype
 Summary:	Net::DBus::Skype - Perl access to DBus Skype API
